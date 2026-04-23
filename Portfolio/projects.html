@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <span>
+        <img src="cafe.png" id="turbo">
+    </span>
+    <span>
+        <img src="tachy.png" id="natie">
+    </span>
+    <span>
+        <img src="el.png" id="doto">
+    </span>
+    <span>
+        <img src="rice.png" id="opera">
+    </span>
+    
+    <header>
+        <h1>    My Projects </h1>
+    </header>
+    <div class="plush">
+        <img src="blast.png">
+        <img src="dura.png">
+        <img src="cb.png">
+        <img src="festa.png" id="festa">
+    </div>
+    <div class = "megagrid">
+        <div class="project">
+            Animal Project
+            <br>
+            <a href="https://codehs.com/sandbox/maroonleopard5261/animal-project-zhou/run"><img src="animal project.png"></a>
+        </div>
+        <div class="project">
+            Famous Figures
+            <a href="https://codehs.com/sandbox/maroonleopard5261/famous-figures/run"><img src="famousfigures.png"></a>
+        </div>
+        <div class="project">
+            Fandom
+            <a href="https://codehs.com/sandbox/maroonleopard5261/project-3/run"><img src="fandom.png"></a>
+        </div>
+    </div>
+    <div class = "home">
+        <a href="index.html" id = "white">Home</a>
+    </div>
+    <script>
+    let square = document.getElementById("festa");
+    square.style.left = "0px";
+    let leftPos = 0; 
+    const RIGHT_END = 2000 - square.offsetWidth; 
+    let timer = setInterval(moveRight, 5);
+    function moveRight() {
+        leftPos += 1;
+        square.style.left = leftPos + "px";
+        if (leftPos >= RIGHT_END) {
+            clearInterval(timer);
+        }
+    }
+</script>
+    </script>
+</body>

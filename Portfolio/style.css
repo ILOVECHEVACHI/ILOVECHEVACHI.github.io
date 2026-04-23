@@ -1,0 +1,136 @@
+header{
+    font-size:35px;
+    text-align:center;
+    color:#b3edfc;
+    position:fixed;
+    top:20%;
+    left:10%;
+    width:80%;
+    height:200px;
+    border:2px solid;
+    background-color:white;
+}
+.plush img{
+    width:600px;
+    height:300px;
+    text-align:center;
+}
+body{
+    background-color:lightblue;
+}
+a{
+    color:#b3edfc;
+}
+a:hover{
+    color:navy;
+    font-size:35px;
+}
+.links table{
+    position:fixed;
+    top:50%;
+    left:45%;
+    right:50%;
+    text-align:center;
+    border-collapse:separate;
+    border:1px solid;
+    border-color:red;
+    padding:20px;    
+    text-align:center;
+    font-size:30px;
+    height:40%;
+    background:white;
+    
+}
+#doto{
+    width:5%;
+    position:absolute;
+    bottom:2px;
+    left:2px;
+}
+#opera{
+    width:5%;
+    position:absolute;
+    bottom:2px;
+    right:2px;
+}
+#natie{
+    width:5%;
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+#turbo{
+    width:5%;
+    position:absolute;
+    top:2px;
+    right:2px;
+}
+.project{
+    color:lightblue;
+    text-align:center;
+    border:1px solid;
+    border-color:white;
+    padding:20px;    
+    text-align:center;
+    font-size:30px;
+    width:100%;
+    height:100%;
+    background:white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-items:center;
+    justify-content:botctom;
+}
+
+.megagrid{    
+    margin:10px;
+    position:fixed;
+    top:50%;
+    left:10%;
+    right:10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap:40px;
+    gap: 40px
+}
+
+.project img{
+    width:100%;
+    height:100%;
+}
+#festa{
+    position:relative;
+    
+}
+.home{
+    bottom:5px;
+    position:fixed;
+    font-size:30px;
+    left:50%;
+    
+}
+#white{
+    color:white;
+}
+#white:hover{
+    color:navy;
+}
+.info table{
+    position:fixed;
+    top:50%;
+    width:80%;
+    left:10%;
+    right:5%;
+    text-align:center;
+    border-collapse:separate;
+    border:1px solid;
+    border-color:red;
+    padding:20px;    
+    text-align:center;
+    font-size:30px;
+    height:40%;
+    background:white;
+    
+}
